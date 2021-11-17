@@ -58,7 +58,7 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #85C8DD;
+  color: #111111;
 }
 
 a:hover, a:focus, a:active {
@@ -245,12 +245,12 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .dropdown > .dropdown-menu > li a:hover {
   border-top: none;
   background: #ffffff;
-  color: #85C8DD;
+  color: #111111;
 }
 
 .probootstrap-navbar .dropdown > .dropdown-menu > li.open > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:hover > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:focus > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:active > a {
   border-top: none;
-  color: #85C8DD;
+  color: #111111;
   background: #ffffff;
 }
 
@@ -274,7 +274,7 @@ a:hover, a:focus, a:active {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #85C8DD;
+  background: #111111;
   border-radius: 0;
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
@@ -377,13 +377,13 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > .dropdown-menu:before {
-  border: 1px solid #85C8DD;
+  border: 1px solid #111111;
   content: "";
   position: absolute;
   top: -20px;
   left: 40px;
   border-color: rgba(133, 200, 221, 0);
-  border-bottom-color: #85C8DD;
+  border-bottom-color: #111111;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -587,7 +587,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-hero.probootstrap-hero-colored {
-  background: #85C8DD;
+  background: #111111;
 }
 
 .probootstrap-hero.probootstrap-hero-colored h1 {
@@ -730,7 +730,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-showcase-nav ul li.active > a {
-  color: #85C8DD;
+  color: #111111;
   padding-left: 0px;
   display: block;
 }
@@ -765,8 +765,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #85C8DD;
-  background: #85C8DD;
+  border: 1px solid #111111;
+  background: #111111;
   color: #ffffff;
 }
 
@@ -776,25 +776,25 @@ a:hover, a:focus, a:active {
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #85C8DD;
+  border: 1px solid #111111;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #85C8DD;
-  color: #85C8DD;
+  border: 1px solid #111111;
+  color: #111111;
 }
 
 .btn.btn-ghost:hover {
-  background: #85C8DD;
+  background: #111111;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #85C8DD;
-  border: 1px solid #85C8DD;
+  color: #111111;
+  border: 1px solid #111111;
 }
 
 .probootstrap-section {
@@ -859,7 +859,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-cta {
   padding: 3em 0;
-  background: #85C8DD;
+  background: #111111;
   color: #ffffff;
 }
 
@@ -913,12 +913,12 @@ a:hover, a:focus, a:active {
 
 .probootstrap-cta .btn.btn-ghost:hover {
   background: #ffffff;
-  color: #85C8DD;
+  color: #111111;
 }
 
 .probootstrap-footer {
   padding: 7em 0;
-  background: #85C8DD;
+  background: #111111;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -994,7 +994,7 @@ a:hover, a:focus, a:active {
 .service .icon i {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.2);
-  color: #85C8DD;
+  color: #111111;
 }
 
 .service h3 {
@@ -1335,7 +1335,7 @@ a:hover, a:focus, a:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #85C8DD;
+  border-color: #111111;
 }
 
 .probootstrap-form textarea.form-control {
@@ -1782,7 +1782,7 @@ a:hover, a:focus, a:active {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #85C8DD;
+  color: #111111;
   font-size: 14px;
 }
 
@@ -1792,7 +1792,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #85C8DD;
+  color: #111111;
   font-weight: 100;
   display: block;
   margin-bottom: 10px;
@@ -2112,14 +2112,14 @@ a:hover, a:focus, a:active {
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"] i {
   font-size: 24px;
-  background: #85c8dd !important;
+  background: #111111 !important;
   padding: 12px;
   -webkit-transition: .5s all;
   transition: .5s all;
 }
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  background: #85c8dd !important;
+  background: #111111 !important;
 }
 
 .owl-theme .owl-dots {
