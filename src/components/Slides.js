@@ -1,25 +1,30 @@
-import { useEffect, useState } from 'react'
-import useWindowDimensions from '../lib/useWindowDimensions'
+import { useEffect, useState, useRef } from 'react'
+import useDimensions from '../lib/useDimensions'
 
 const delayms   = 10000
-const srcWidth  = 900
-const srcHeight = 559
-const margin    = 100
+const srcWidth  = 960
+const srcHeight = 569
+const margin    = 50
+
+const styles = {
+}
 
 export default function Slides() {
-  const { height, width } = useWindowDimensions()
+  const { height, width } = useDimensions(margin)
 
-  let ratio = Math.min(width / srcWidth, height / srcHeight);
+  let ratio = Math.min(width / srcWidth, height / srcHeight)
 
   return (
-    <iframe
-      src={`https://docs.google.com/presentation/d/e/2PACX-1vTLnPwcPLctj0EUXzj43FhTB8JrJzybiRXbxQzFVTytahxSOTsz9k8CWWQYelVLNpNjPRxu-iTQl_Xd/embed?start=false&loop=true&delayms=${delayms}`}
-      frameBorder="0"
-      allowfullscreen="true"
-      mozallowfullscreen="true"
-      webkitallowfullscreen="true"
-      width={srcWidth*ratio-margin}
-      height={srcHeight*ratio-margin}>
-    </iframe>
+    <div style={styles}>
+      <iframe
+        src={`https://docs.google.com/presentation/d/e/2PACX-1vTLnPwcPLctj0EUXzj43FhTB8JrJzybiRXbxQzFVTytahxSOTsz9k8CWWQYelVLNpNjPRxu-iTQl_Xd/embed?start=false&loop=true&delayms=${delayms}`}
+        frameBorder="0"
+        allowFullScreen={true}
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        width={srcWidth*ratio}
+        height={srcHeight*ratio}>
+      </iframe>
+    </div>
   )
 }

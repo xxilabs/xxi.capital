@@ -1,13 +1,15 @@
 import Slides from './components/Slides';
+import Navbar from './components/Navbar';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          <Slides />
-      </header>
+      <Navbar />
+      <div className="App-content">
+        <Slides />
+      </div>
     </div>
   );
 }
